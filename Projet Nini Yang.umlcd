@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_jbX7ILTcEeq0UtSqCth7Mw">
+  <modelElement href="Projet%20Nini%20Yang.uml#_sMB4cLTcEeq0UtSqCth7Mw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_vOF7QLTcEeq0UtSqCth7Mw" sourceAnchor="0.0,133.0" targetAnchor="162.0,0.0" target="_sOKmcLTcEeq0UtSqCth7Mw" source="_vOMB4LTcEeq0UtSqCth7Mw">
+    <modelElement href="Projet%20Nini%20Yang.uml#_vMKoorTcEeq0UtSqCth7Mw"/>
+    <bendpoints xmi:id="_oZC5kLTdEeq0UtSqCth7Mw" sourceX="-401" targetY="-148"/>
+    <stereotypes xmi:id="_vOIXgLTcEeq0UtSqCth7Mw" name="Reference">
+      <modelElement href="Projet%20Nini%20Yang.uml#_vMLPsLTcEeq0UtSqCth7Mw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_vOHwcLTcEeq0UtSqCth7Mw" text="">
+      <visualProperties xmi:id="_vQo48bTcEeq0UtSqCth7Mw" position="1.5,40.99999999999994"/>
+    </nameVisual>
+    <sourceRole xmi:id="_vOHwcbTcEeq0UtSqCth7Mw" aggregationKind="NONE" name="">
+      <modelElement href="Projet%20Nini%20Yang.uml#_vMKoo7TcEeq0UtSqCth7Mw"/>
+      <visualProperties xmi:id="_vQo48LTcEeq0UtSqCth7Mw" position="-40.90625,-56.999999999999986"/>
+      <visibility xmi:id="_vOJlobTcEeq0UtSqCth7Mw" label="+"/>
+      <cardinality xmi:id="_vOJloLTcEeq0UtSqCth7Mw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_vOHwcrTcEeq0UtSqCth7Mw" aggregationKind="NONE" name="listeAnnee" navigable="true">
+      <modelElement href="Projet%20Nini%20Yang.uml#_vMIzcLTcEeq0UtSqCth7Mw"/>
+      <visualProperties xmi:id="_vQpgALTcEeq0UtSqCth7Mw" position="-86.49999999999994,-86.33333333333326"/>
+      <visibility xmi:id="_vOKMs7TcEeq0UtSqCth7Mw" label="+"/>
+      <cardinality xmi:id="_vOKMsrTcEeq0UtSqCth7Mw" label="1" max="1" min="1"/>
+      <qualifierHelper xmi:id="_vOKMsLTcEeq0UtSqCth7Mw">
+        <qualifiers xmi:id="_vOKMsbTcEeq0UtSqCth7Mw">
+          <modelElement href="Projet%20Nini%20Yang.uml#_vMJagLTcEeq0UtSqCth7Mw"/>
+          <visibility xmi:id="_vOLa0bTcEeq0UtSqCth7Mw" label="+"/>
+          <cardinality xmi:id="_vOLa0rTcEeq0UtSqCth7Mw" label="1" max="1" min="1"/>
+          <type xmi:id="_vOLa0LTcEeq0UtSqCth7Mw" name="int">
+            <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </type>
+        </qualifiers>
+      </qualifierHelper>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_3V2skLTcEeq0UtSqCth7Mw" sourceAnchor="161.0,0.0" targetAnchor="207.0,231.0" target="_vOMB4LTcEeq0UtSqCth7Mw" source="_3V5v4LTcEeq0UtSqCth7Mw">
+    <modelElement href="Projet%20Nini%20Yang.uml#_3Tt-kLTcEeq0UtSqCth7Mw"/>
+    <stereotypes xmi:id="_3V3To7TcEeq0UtSqCth7Mw" name="Reference">
+      <modelElement href="Projet%20Nini%20Yang.uml#_3Tt-krTcEeq0UtSqCth7Mw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_3V3ToLTcEeq0UtSqCth7Mw" text="">
+      <visualProperties xmi:id="_3YnFobTcEeq0UtSqCth7Mw" position="2.0,-44.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_3V3TobTcEeq0UtSqCth7Mw" aggregationKind="NONE" name="">
+      <modelElement href="Projet%20Nini%20Yang.uml#_3Tt-kbTcEeq0UtSqCth7Mw"/>
+      <visualProperties xmi:id="_3YnFoLTcEeq0UtSqCth7Mw" position="2.0,-78.0"/>
+      <visibility xmi:id="_3V4hwbTcEeq0UtSqCth7Mw" label="+"/>
+      <cardinality xmi:id="_3V4hwLTcEeq0UtSqCth7Mw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_3V3TorTcEeq0UtSqCth7Mw" aggregationKind="NONE" name="anomalieTemp" navigable="true">
+      <modelElement href="Projet%20Nini%20Yang.uml#_3TsJYLTcEeq0UtSqCth7Mw"/>
+      <visualProperties xmi:id="_3YnForTcEeq0UtSqCth7Mw" position="-117.0,22.0"/>
+      <visibility xmi:id="_3V4hw7TcEeq0UtSqCth7Mw" label="-"/>
+      <cardinality xmi:id="_3V4hwrTcEeq0UtSqCth7Mw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_vOMB4LTcEeq0UtSqCth7Mw" name="Anomalie" associationsIn="_3V2skLTcEeq0UtSqCth7Mw" associationsOut="_vOF7QLTcEeq0UtSqCth7Mw">
+    <modelElement href="Projet%20Nini%20Yang.uml#_vLxAALTcEeq0UtSqCth7Mw"/>
+    <visualProperties xmi:id="_vOMB4bTcEeq0UtSqCth7Mw" position="785.0,-29.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_vOMB4rTcEeq0UtSqCth7Mw" label="+"/>
+    <attributes xmi:id="_vOMB47TcEeq0UtSqCth7Mw" name="listeAnnee">
+      <modelElement href="Projet%20Nini%20Yang.uml#_vMIzcLTcEeq0UtSqCth7Mw"/>
+      <visibility xmi:id="_vOMB5LTcEeq0UtSqCth7Mw" label="+"/>
+      <cardinality xmi:id="_vOMB5bTcEeq0UtSqCth7Mw" label="1" max="1" min="1"/>
+      <type xmi:id="_vOMB5rTcEeq0UtSqCth7Mw" name="Annee">
+        <modelElement href="Projet%20Nini%20Yang.uml#_sMDGkLTcEeq0UtSqCth7Mw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_vOMB57TcEeq0UtSqCth7Mw" name="anomalieMax">
+      <modelElement href="Projet%20Nini%20Yang.uml#_vMJagbTcEeq0UtSqCth7Mw"/>
+      <visibility xmi:id="_vOMB6LTcEeq0UtSqCth7Mw" label="+"/>
+      <cardinality xmi:id="_vOMB6bTcEeq0UtSqCth7Mw" label="1" max="1" min="1"/>
+      <type xmi:id="_vOMB6rTcEeq0UtSqCth7Mw" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_vOMB67TcEeq0UtSqCth7Mw" name="anomalieMin">
+      <modelElement href="Projet%20Nini%20Yang.uml#_vMJagrTcEeq0UtSqCth7Mw"/>
+      <visibility xmi:id="_vOMB7LTcEeq0UtSqCth7Mw" label="+"/>
+      <cardinality xmi:id="_vOMB7bTcEeq0UtSqCth7Mw" label="1" max="1" min="1"/>
+      <type xmi:id="_vOMB7rTcEeq0UtSqCth7Mw" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_vOMB77TcEeq0UtSqCth7Mw" name="Anomalie">
+      <modelElement href="Projet%20Nini%20Yang.uml#_vLxnELTcEeq0UtSqCth7Mw"/>
+      <keywords xmi:id="_vOMB8LTcEeq0UtSqCth7Mw" keyword="create"/>
+      <visibility xmi:id="_vOMB8bTcEeq0UtSqCth7Mw" label="+"/>
+      <cardinality xmi:id="_vOMB8rTcEeq0UtSqCth7Mw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_vOMB87TcEeq0UtSqCth7Mw">
+        <modelElement href="Projet%20Nini%20Yang.uml#_vLyOIrTcEeq0UtSqCth7Mw"/>
+        <type xmi:id="_vOMB9LTcEeq0UtSqCth7Mw" name="Anomalie">
+          <modelElement href="Projet%20Nini%20Yang.uml#_vLxAALTcEeq0UtSqCth7Mw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_vOMB9bTcEeq0UtSqCth7Mw" name="ListeAnomalieParAnnee">
+      <modelElement href="Projet%20Nini%20Yang.uml#_vLyOI7TcEeq0UtSqCth7Mw"/>
+      <stereotypes xmi:id="_vOMB9rTcEeq0UtSqCth7Mw" name="Generics">
+        <modelElement href="Projet%20Nini%20Yang.uml#_vLy1MLTcEeq0UtSqCth7Mw"/>
+      </stereotypes>
+      <visibility xmi:id="_vOMB97TcEeq0UtSqCth7Mw" label="+"/>
+      <cardinality xmi:id="_vOMB-LTcEeq0UtSqCth7Mw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_vOMB-bTcEeq0UtSqCth7Mw">
+        <modelElement href="Projet%20Nini%20Yang.uml#_vMIMY7TcEeq0UtSqCth7Mw"/>
+        <type xmi:id="_vOMB-rTcEeq0UtSqCth7Mw" name="ArrayList">
+          <modelElement href="Projet%20Nini%20Yang.uml#_sMNeoLTcEeq0UtSqCth7Mw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_vOMB-7TcEeq0UtSqCth7Mw" name="a">
+        <modelElement href="Projet%20Nini%20Yang.uml#_vLyOJLTcEeq0UtSqCth7Mw"/>
+        <cardinality xmi:id="_vOMB_LTcEeq0UtSqCth7Mw" label="1" max="1" min="1"/>
+        <type xmi:id="_vOMB_bTcEeq0UtSqCth7Mw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_vOMB_rTcEeq0UtSqCth7Mw" name="getTempAnomalie">
+      <modelElement href="Projet%20Nini%20Yang.uml#_vL90ULTcEeq0UtSqCth7Mw"/>
+      <visibility xmi:id="_vOMB_7TcEeq0UtSqCth7Mw" label="+"/>
+      <cardinality xmi:id="_vOMCALTcEeq0UtSqCth7Mw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_vOMCAbTcEeq0UtSqCth7Mw">
+        <modelElement href="Projet%20Nini%20Yang.uml#_vL90U7TcEeq0UtSqCth7Mw"/>
+        <type xmi:id="_vOMCArTcEeq0UtSqCth7Mw" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_vOMCA7TcEeq0UtSqCth7Mw" name="a">
+        <modelElement href="Projet%20Nini%20Yang.uml#_vL90UbTcEeq0UtSqCth7Mw"/>
+        <cardinality xmi:id="_vOMCBLTcEeq0UtSqCth7Mw" label="1" max="1" min="1"/>
+        <type xmi:id="_vOMCBbTcEeq0UtSqCth7Mw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_vOMCBrTcEeq0UtSqCth7Mw" name="coord">
+        <modelElement href="Projet%20Nini%20Yang.uml#_vL90UrTcEeq0UtSqCth7Mw"/>
+        <cardinality xmi:id="_vOMCB7TcEeq0UtSqCth7Mw" label="1" max="1" min="1"/>
+        <type xmi:id="_vOMCCLTcEeq0UtSqCth7Mw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_vOMCCbTcEeq0UtSqCth7Mw" name="ListeAnomalieParCoord">
+      <modelElement href="Projet%20Nini%20Yang.uml#_vL-bYLTcEeq0UtSqCth7Mw"/>
+      <stereotypes xmi:id="_vOMCCrTcEeq0UtSqCth7Mw" name="Generics">
+        <modelElement href="Projet%20Nini%20Yang.uml#_vL_CcLTcEeq0UtSqCth7Mw"/>
+      </stereotypes>
+      <visibility xmi:id="_vOMCC7TcEeq0UtSqCth7Mw" label="+"/>
+      <cardinality xmi:id="_vOMCDLTcEeq0UtSqCth7Mw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_vOMCDbTcEeq0UtSqCth7Mw">
+        <modelElement href="Projet%20Nini%20Yang.uml#_vMIMZLTcEeq0UtSqCth7Mw"/>
+        <type xmi:id="_vOMCDrTcEeq0UtSqCth7Mw" name="ArrayList">
+          <modelElement href="Projet%20Nini%20Yang.uml#_sMNeoLTcEeq0UtSqCth7Mw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_vOMCD7TcEeq0UtSqCth7Mw" name="coord">
+        <modelElement href="Projet%20Nini%20Yang.uml#_vL-bYbTcEeq0UtSqCth7Mw"/>
+        <cardinality xmi:id="_vOMCELTcEeq0UtSqCth7Mw" label="1" max="1" min="1"/>
+        <type xmi:id="_vOMCEbTcEeq0UtSqCth7Mw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_vOMCErTcEeq0UtSqCth7Mw" name="ListeToutesAnnee">
+      <modelElement href="Projet%20Nini%20Yang.uml#_vL_CcbTcEeq0UtSqCth7Mw"/>
+      <stereotypes xmi:id="_vOMCE7TcEeq0UtSqCth7Mw" name="Generics">
+        <modelElement href="Projet%20Nini%20Yang.uml#_vL_pgLTcEeq0UtSqCth7Mw"/>
+      </stereotypes>
+      <visibility xmi:id="_vOMCFLTcEeq0UtSqCth7Mw" label="+"/>
+      <cardinality xmi:id="_vOMCFbTcEeq0UtSqCth7Mw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_vOMCFrTcEeq0UtSqCth7Mw">
+        <modelElement href="Projet%20Nini%20Yang.uml#_vMIMZbTcEeq0UtSqCth7Mw"/>
+        <type xmi:id="_vOMCF7TcEeq0UtSqCth7Mw" name="ArrayList">
+          <modelElement href="Projet%20Nini%20Yang.uml#_sMNeoLTcEeq0UtSqCth7Mw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_vOMCGLTcEeq0UtSqCth7Mw" name="ajoutAnnee">
+      <modelElement href="Projet%20Nini%20Yang.uml#_vMIMYLTcEeq0UtSqCth7Mw"/>
+      <visibility xmi:id="_vOMCGbTcEeq0UtSqCth7Mw" label="+"/>
+      <cardinality xmi:id="_vOMCGrTcEeq0UtSqCth7Mw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_vOMCG7TcEeq0UtSqCth7Mw" name="a">
+        <modelElement href="Projet%20Nini%20Yang.uml#_vMIMYbTcEeq0UtSqCth7Mw"/>
+        <cardinality xmi:id="_vOMCHLTcEeq0UtSqCth7Mw" label="1" max="1" min="1"/>
+        <type xmi:id="_vOMCHbTcEeq0UtSqCth7Mw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_vOMCHrTcEeq0UtSqCth7Mw" name="annee">
+        <modelElement href="Projet%20Nini%20Yang.uml#_vMIMYrTcEeq0UtSqCth7Mw"/>
+        <cardinality xmi:id="_vOMCH7TcEeq0UtSqCth7Mw" label="1" max="1" min="1"/>
+        <type xmi:id="_vOMCILTcEeq0UtSqCth7Mw" name="Annee">
+          <modelElement href="Projet%20Nini%20Yang.uml#_sMDGkLTcEeq0UtSqCth7Mw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_3V5v4LTcEeq0UtSqCth7Mw" name="ModelEarth" associationsOut="_3V2skLTcEeq0UtSqCth7Mw">
+    <modelElement href="Projet%20Nini%20Yang.uml#_3ThxULTcEeq0UtSqCth7Mw"/>
+    <visualProperties xmi:id="_3V5v4bTcEeq0UtSqCth7Mw" position="831.0,324.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_3V5v4rTcEeq0UtSqCth7Mw" label="+"/>
+    <attributes xmi:id="_3V5v47TcEeq0UtSqCth7Mw" name="anomalieTemp">
+      <modelElement href="Projet%20Nini%20Yang.uml#_3TsJYLTcEeq0UtSqCth7Mw"/>
+      <stereotypes xmi:id="_3V5v5LTcEeq0UtSqCth7Mw" name="LegacyStyledElement">
+        <modelElement href="Projet%20Nini%20Yang.uml#_3TsJYbTcEeq0UtSqCth7Mw"/>
+      </stereotypes>
+      <visibility xmi:id="_3V5v5bTcEeq0UtSqCth7Mw" label="-"/>
+      <cardinality xmi:id="_3V5v5rTcEeq0UtSqCth7Mw" label="1" max="1" min="1"/>
+      <type xmi:id="_3V5v57TcEeq0UtSqCth7Mw" name="Anomalie">
+        <modelElement href="Projet%20Nini%20Yang.uml#_vLxAALTcEeq0UtSqCth7Mw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_3V5v6LTcEeq0UtSqCth7Mw" name="ModelEarth">
+      <modelElement href="Projet%20Nini%20Yang.uml#_3TiYYLTcEeq0UtSqCth7Mw"/>
+      <keywords xmi:id="_3V5v6bTcEeq0UtSqCth7Mw" keyword="create"/>
+      <visibility xmi:id="_3V5v6rTcEeq0UtSqCth7Mw" label="+"/>
+      <cardinality xmi:id="_3V5v67TcEeq0UtSqCth7Mw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3V5v7LTcEeq0UtSqCth7Mw">
+        <modelElement href="Projet%20Nini%20Yang.uml#_3TiYY7TcEeq0UtSqCth7Mw"/>
+        <type xmi:id="_3V5v7bTcEeq0UtSqCth7Mw" name="ModelEarth">
+          <modelElement href="Projet%20Nini%20Yang.uml#_3ThxULTcEeq0UtSqCth7Mw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_3V5v7rTcEeq0UtSqCth7Mw" name="getListeAnnee">
+      <modelElement href="Projet%20Nini%20Yang.uml#_3Ti_cLTcEeq0UtSqCth7Mw"/>
+      <stereotypes xmi:id="_3V5v77TcEeq0UtSqCth7Mw" name="Generics">
+        <modelElement href="Projet%20Nini%20Yang.uml#_3Ti_cbTcEeq0UtSqCth7Mw"/>
+      </stereotypes>
+      <visibility xmi:id="_3V5v8LTcEeq0UtSqCth7Mw" label="+"/>
+      <cardinality xmi:id="_3V5v8bTcEeq0UtSqCth7Mw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3V5v8rTcEeq0UtSqCth7Mw">
+        <modelElement href="Projet%20Nini%20Yang.uml#_3TriULTcEeq0UtSqCth7Mw"/>
+        <type xmi:id="_3V5v87TcEeq0UtSqCth7Mw" name="ArrayList">
+          <modelElement href="Projet%20Nini%20Yang.uml#_sMNeoLTcEeq0UtSqCth7Mw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_3V5v9LTcEeq0UtSqCth7Mw" name="getTemp">
+      <modelElement href="Projet%20Nini%20Yang.uml#_3Ti_crTcEeq0UtSqCth7Mw"/>
+      <visibility xmi:id="_3V5v9bTcEeq0UtSqCth7Mw" label="+"/>
+      <cardinality xmi:id="_3V5v9rTcEeq0UtSqCth7Mw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3V5v97TcEeq0UtSqCth7Mw">
+        <modelElement href="Projet%20Nini%20Yang.uml#_3TjmgrTcEeq0UtSqCth7Mw"/>
+        <type xmi:id="_3V5v-LTcEeq0UtSqCth7Mw" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_3V5v-bTcEeq0UtSqCth7Mw" name="a">
+        <modelElement href="Projet%20Nini%20Yang.uml#_3TjmgLTcEeq0UtSqCth7Mw"/>
+        <cardinality xmi:id="_3V5v-rTcEeq0UtSqCth7Mw" label="1" max="1" min="1"/>
+        <type xmi:id="_3V5v-7TcEeq0UtSqCth7Mw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_3V5v_LTcEeq0UtSqCth7Mw" name="coord">
+        <modelElement href="Projet%20Nini%20Yang.uml#_3TjmgbTcEeq0UtSqCth7Mw"/>
+        <cardinality xmi:id="_3V5v_bTcEeq0UtSqCth7Mw" label="1" max="1" min="1"/>
+        <type xmi:id="_3V5v_rTcEeq0UtSqCth7Mw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_3V5v_7TcEeq0UtSqCth7Mw" name="getAnomalieParCoord">
+      <modelElement href="Projet%20Nini%20Yang.uml#_3Tjmg7TcEeq0UtSqCth7Mw"/>
+      <stereotypes xmi:id="_3V5wALTcEeq0UtSqCth7Mw" name="Generics">
+        <modelElement href="Projet%20Nini%20Yang.uml#_3TjmhbTcEeq0UtSqCth7Mw"/>
+      </stereotypes>
+      <visibility xmi:id="_3V5wAbTcEeq0UtSqCth7Mw" label="+"/>
+      <cardinality xmi:id="_3V5wArTcEeq0UtSqCth7Mw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3V5wA7TcEeq0UtSqCth7Mw">
+        <modelElement href="Projet%20Nini%20Yang.uml#_3TriUbTcEeq0UtSqCth7Mw"/>
+        <type xmi:id="_3V5wBLTcEeq0UtSqCth7Mw" name="ArrayList">
+          <modelElement href="Projet%20Nini%20Yang.uml#_sMNeoLTcEeq0UtSqCth7Mw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_3V5wBbTcEeq0UtSqCth7Mw" name="coord">
+        <modelElement href="Projet%20Nini%20Yang.uml#_3TjmhLTcEeq0UtSqCth7Mw"/>
+        <cardinality xmi:id="_3V5wBrTcEeq0UtSqCth7Mw" label="1" max="1" min="1"/>
+        <type xmi:id="_3V5wB7TcEeq0UtSqCth7Mw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_3V5wCLTcEeq0UtSqCth7Mw" name="getAnomalieParAnnee">
+      <modelElement href="Projet%20Nini%20Yang.uml#_3TkNkLTcEeq0UtSqCth7Mw"/>
+      <stereotypes xmi:id="_3V5wCbTcEeq0UtSqCth7Mw" name="Generics">
+        <modelElement href="Projet%20Nini%20Yang.uml#_3TkNkrTcEeq0UtSqCth7Mw"/>
+      </stereotypes>
+      <visibility xmi:id="_3V5wCrTcEeq0UtSqCth7Mw" label="+"/>
+      <cardinality xmi:id="_3V5wC7TcEeq0UtSqCth7Mw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3V5wDLTcEeq0UtSqCth7Mw">
+        <modelElement href="Projet%20Nini%20Yang.uml#_3TriUrTcEeq0UtSqCth7Mw"/>
+        <type xmi:id="_3V5wDbTcEeq0UtSqCth7Mw" name="ArrayList">
+          <modelElement href="Projet%20Nini%20Yang.uml#_sMNeoLTcEeq0UtSqCth7Mw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_3V5wDrTcEeq0UtSqCth7Mw" name="a">
+        <modelElement href="Projet%20Nini%20Yang.uml#_3TkNkbTcEeq0UtSqCth7Mw"/>
+        <cardinality xmi:id="_3V5wD7TcEeq0UtSqCth7Mw" label="1" max="1" min="1"/>
+        <type xmi:id="_3V5wELTcEeq0UtSqCth7Mw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_3V5wEbTcEeq0UtSqCth7Mw" name="getTempMin">
+      <modelElement href="Projet%20Nini%20Yang.uml#_3Tk0oLTcEeq0UtSqCth7Mw"/>
+      <visibility xmi:id="_3V5wErTcEeq0UtSqCth7Mw" label="+"/>
+      <cardinality xmi:id="_3V5wE7TcEeq0UtSqCth7Mw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3V5wFLTcEeq0UtSqCth7Mw">
+        <modelElement href="Projet%20Nini%20Yang.uml#_3Tk0obTcEeq0UtSqCth7Mw"/>
+        <type xmi:id="_3V5wFbTcEeq0UtSqCth7Mw" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_3V5wFrTcEeq0UtSqCth7Mw" name="getTempMax">
+      <modelElement href="Projet%20Nini%20Yang.uml#_3Tk0orTcEeq0UtSqCth7Mw"/>
+      <visibility xmi:id="_3V5wF7TcEeq0UtSqCth7Mw" label="+"/>
+      <cardinality xmi:id="_3V5wGLTcEeq0UtSqCth7Mw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3V5wGbTcEeq0UtSqCth7Mw">
+        <modelElement href="Projet%20Nini%20Yang.uml#_3Tk0o7TcEeq0UtSqCth7Mw"/>
+        <type xmi:id="_3V5wGrTcEeq0UtSqCth7Mw" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_sObsMLTcEeq0UtSqCth7Mw" name="ExceptionNonContains">
+    <modelElement href="Projet%20Nini%20Yang.uml#_sMP64LTcEeq0UtSqCth7Mw"/>
+    <visualProperties xmi:id="_sObsMbTcEeq0UtSqCth7Mw" position="471.0,497.0" size="-1.0,-1.0" visible="false"/>
+    <stereotypes xmi:id="_sObsMrTcEeq0UtSqCth7Mw" name="Reference">
+      <modelElement href="Projet%20Nini%20Yang.uml#_sMP64bTcEeq0UtSqCth7Mw"/>
+    </stereotypes>
+    <visibility xmi:id="_sObsM7TcEeq0UtSqCth7Mw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_5shpALTcEeq0UtSqCth7Mw" name="Recuperation">
+    <modelElement href="Projet%20Nini%20Yang.uml#_5qXF0LTcEeq0UtSqCth7Mw"/>
+    <visualProperties xmi:id="_5shpAbTcEeq0UtSqCth7Mw" position="112.0,26.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_5shpArTcEeq0UtSqCth7Mw" label="+"/>
+    <operations xmi:id="_5shpA7TcEeq0UtSqCth7Mw" name="getDataFromCSVFile" staticOperation="true">
+      <modelElement href="Projet%20Nini%20Yang.uml#_5qXs4LTcEeq0UtSqCth7Mw"/>
+      <visibility xmi:id="_5shpBLTcEeq0UtSqCth7Mw" label="+"/>
+      <cardinality xmi:id="_5shpBbTcEeq0UtSqCth7Mw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_5shpBrTcEeq0UtSqCth7Mw">
+        <modelElement href="Projet%20Nini%20Yang.uml#_5qgPwbTcEeq0UtSqCth7Mw"/>
+        <type xmi:id="_5shpB7TcEeq0UtSqCth7Mw" name="Anomalie">
+          <modelElement href="Projet%20Nini%20Yang.uml#_vLxAALTcEeq0UtSqCth7Mw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_5shpCLTcEeq0UtSqCth7Mw" name="csvFilePath">
+        <modelElement href="Projet%20Nini%20Yang.uml#_5qXs4bTcEeq0UtSqCth7Mw"/>
+        <cardinality xmi:id="_5shpCbTcEeq0UtSqCth7Mw" label="1" max="1" min="1"/>
+        <type xmi:id="_5shpCrTcEeq0UtSqCth7Mw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_sOKmcLTcEeq0UtSqCth7Mw" name="Annee" associationsIn="_vOF7QLTcEeq0UtSqCth7Mw">
+    <modelElement href="Projet%20Nini%20Yang.uml#_sMDGkLTcEeq0UtSqCth7Mw"/>
+    <visualProperties xmi:id="_sOKmcbTcEeq0UtSqCth7Mw" position="222.0,252.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_sOKmcrTcEeq0UtSqCth7Mw" label="+"/>
+    <attributes xmi:id="_sOKmc7TcEeq0UtSqCth7Mw" name="annee">
+      <modelElement href="Projet%20Nini%20Yang.uml#_sMQh8bTcEeq0UtSqCth7Mw"/>
+      <stereotypes xmi:id="_sOKmdLTcEeq0UtSqCth7Mw" name="LegacyStyledElement">
+        <modelElement href="Projet%20Nini%20Yang.uml#_sMQh8rTcEeq0UtSqCth7Mw"/>
+      </stereotypes>
+      <visibility xmi:id="_sOKmdbTcEeq0UtSqCth7Mw" label="-"/>
+      <cardinality xmi:id="_sOKmdrTcEeq0UtSqCth7Mw" label="1" max="1" min="1"/>
+      <type xmi:id="_sOKmd7TcEeq0UtSqCth7Mw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_sOKmeLTcEeq0UtSqCth7Mw" name="coordTemp">
+      <modelElement href="Projet%20Nini%20Yang.uml#_sMRJALTcEeq0UtSqCth7Mw"/>
+      <stereotypes xmi:id="_sOKmebTcEeq0UtSqCth7Mw" name="LegacyStyledElement">
+        <modelElement href="Projet%20Nini%20Yang.uml#_sMRJAbTcEeq0UtSqCth7Mw"/>
+      </stereotypes>
+      <visibility xmi:id="_sOKmerTcEeq0UtSqCth7Mw" label="-"/>
+      <cardinality xmi:id="_sOKme7TcEeq0UtSqCth7Mw" label="1" max="1" min="1"/>
+      <type xmi:id="_sOKmfLTcEeq0UtSqCth7Mw" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_sOKmfbTcEeq0UtSqCth7Mw" name="Annee">
+      <modelElement href="Projet%20Nini%20Yang.uml#_sMEUsLTcEeq0UtSqCth7Mw"/>
+      <keywords xmi:id="_sOKmfrTcEeq0UtSqCth7Mw" keyword="create"/>
+      <visibility xmi:id="_sOKmf7TcEeq0UtSqCth7Mw" label="+"/>
+      <cardinality xmi:id="_sOKmgLTcEeq0UtSqCth7Mw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_sOKmgbTcEeq0UtSqCth7Mw">
+        <modelElement href="Projet%20Nini%20Yang.uml#_sMEUtLTcEeq0UtSqCth7Mw"/>
+        <type xmi:id="_sOKmgrTcEeq0UtSqCth7Mw" name="Annee">
+          <modelElement href="Projet%20Nini%20Yang.uml#_sMDGkLTcEeq0UtSqCth7Mw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_sOKmg7TcEeq0UtSqCth7Mw" name="annee">
+        <modelElement href="Projet%20Nini%20Yang.uml#_sMEUsbTcEeq0UtSqCth7Mw"/>
+        <cardinality xmi:id="_sOKmhLTcEeq0UtSqCth7Mw" label="1" max="1" min="1"/>
+        <type xmi:id="_sOKmhbTcEeq0UtSqCth7Mw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_sOKmhrTcEeq0UtSqCth7Mw" name="ajoutCoord">
+      <modelElement href="Projet%20Nini%20Yang.uml#_sMEUtbTcEeq0UtSqCth7Mw"/>
+      <visibility xmi:id="_sOKmh7TcEeq0UtSqCth7Mw" label="+"/>
+      <cardinality xmi:id="_sOKmiLTcEeq0UtSqCth7Mw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_sOKmibTcEeq0UtSqCth7Mw" name="coord">
+        <modelElement href="Projet%20Nini%20Yang.uml#_sMEUtrTcEeq0UtSqCth7Mw"/>
+        <cardinality xmi:id="_sOKmirTcEeq0UtSqCth7Mw" label="1" max="1" min="1"/>
+        <type xmi:id="_sOKmi7TcEeq0UtSqCth7Mw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_sOKmjLTcEeq0UtSqCth7Mw" name="temp">
+        <modelElement href="Projet%20Nini%20Yang.uml#_sME7wLTcEeq0UtSqCth7Mw"/>
+        <cardinality xmi:id="_sOKmjbTcEeq0UtSqCth7Mw" label="1" max="1" min="1"/>
+        <type xmi:id="_sOKmjrTcEeq0UtSqCth7Mw" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_sOKmj7TcEeq0UtSqCth7Mw" name="getTemp">
+      <modelElement href="Projet%20Nini%20Yang.uml#_sME7wbTcEeq0UtSqCth7Mw"/>
+      <visibility xmi:id="_sOKmkLTcEeq0UtSqCth7Mw" label="+"/>
+      <cardinality xmi:id="_sOKmkbTcEeq0UtSqCth7Mw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_sOKmkrTcEeq0UtSqCth7Mw">
+        <modelElement href="Projet%20Nini%20Yang.uml#_sME7w7TcEeq0UtSqCth7Mw"/>
+        <type xmi:id="_sOKmk7TcEeq0UtSqCth7Mw" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_sOKmlLTcEeq0UtSqCth7Mw" name="coord">
+        <modelElement href="Projet%20Nini%20Yang.uml#_sME7wrTcEeq0UtSqCth7Mw"/>
+        <cardinality xmi:id="_sOKmlbTcEeq0UtSqCth7Mw" label="1" max="1" min="1"/>
+        <type xmi:id="_sOKmlrTcEeq0UtSqCth7Mw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_sOKml7TcEeq0UtSqCth7Mw" name="getZoneConnu">
+      <modelElement href="Projet%20Nini%20Yang.uml#_sME7xLTcEeq0UtSqCth7Mw"/>
+      <stereotypes xmi:id="_sOKmmLTcEeq0UtSqCth7Mw" name="Generics">
+        <modelElement href="Projet%20Nini%20Yang.uml#_sMFi0LTcEeq0UtSqCth7Mw"/>
+      </stereotypes>
+      <visibility xmi:id="_sOKmmbTcEeq0UtSqCth7Mw" label="+"/>
+      <cardinality xmi:id="_sOKmmrTcEeq0UtSqCth7Mw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_sOKmm7TcEeq0UtSqCth7Mw">
+        <modelElement href="Projet%20Nini%20Yang.uml#_sMP64rTcEeq0UtSqCth7Mw"/>
+        <type xmi:id="_sOKmnLTcEeq0UtSqCth7Mw" name="ArrayList">
+          <modelElement href="Projet%20Nini%20Yang.uml#_sMNeoLTcEeq0UtSqCth7Mw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_sOKmnbTcEeq0UtSqCth7Mw" name="getListeTempParCoord">
+      <modelElement href="Projet%20Nini%20Yang.uml#_sMGJ4LTcEeq0UtSqCth7Mw"/>
+      <stereotypes xmi:id="_sOKmnrTcEeq0UtSqCth7Mw" name="Generics">
+        <modelElement href="Projet%20Nini%20Yang.uml#_sMGJ4bTcEeq0UtSqCth7Mw"/>
+      </stereotypes>
+      <visibility xmi:id="_sOKmn7TcEeq0UtSqCth7Mw" label="+"/>
+      <cardinality xmi:id="_sOKmoLTcEeq0UtSqCth7Mw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_sOKmobTcEeq0UtSqCth7Mw">
+        <modelElement href="Projet%20Nini%20Yang.uml#_sMQh8LTcEeq0UtSqCth7Mw"/>
+        <type xmi:id="_sOKmorTcEeq0UtSqCth7Mw" name="ArrayList">
+          <modelElement href="Projet%20Nini%20Yang.uml#_sMNeoLTcEeq0UtSqCth7Mw"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

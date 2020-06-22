@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_jaApMLTcEeq0UtSqCth7Mw" name="Projet_Nini_Yang">
+    <eAnnotations xmi:id="_jebPILTcEeq0UtSqCth7Mw" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_jebPIbTcEeq0UtSqCth7Mw" source="codegen">
+        <details xmi:id="_jeb2MLTcEeq0UtSqCth7Mw" key="codegenDirectory" value="/Projet/src"/>
+        <details xmi:id="_sN_nULTcEeq0UtSqCth7Mw" key="AssociatedSourceCode" value="/Projet/src/ressource/Annee.java;3815225417/1;/Projet/src/ressource/Anomalie.java;3801262790/1;/Projet/src/application/ModelEarth.java;2699315386/1;/Projet/src/application/Recuperation.java;2852462023/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_sL_cMLTcEeq0UtSqCth7Mw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_sMADQLTcEeq0UtSqCth7Mw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_sMADQbTcEeq0UtSqCth7Mw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_sMADQrTcEeq0UtSqCth7Mw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_sMADQ7TcEeq0UtSqCth7Mw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_sMADRLTcEeq0UtSqCth7Mw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_sMADRbTcEeq0UtSqCth7Mw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_sMADRrTcEeq0UtSqCth7Mw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_sMAqULTcEeq0UtSqCth7Mw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_sMAqUbTcEeq0UtSqCth7Mw" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_sMAqUrTcEeq0UtSqCth7Mw" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_sMNeoLTcEeq0UtSqCth7Mw" name="ArrayList"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_sMOFsbTcEeq0UtSqCth7Mw" name="HashMap"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_sMOFs7TcEeq0UtSqCth7Mw" name="Map"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_3Tf8ILTcEeq0UtSqCth7Mw" name="io">
+        <packagedElement xmi:type="uml:Class" xmi:id="_3Tq7QLTcEeq0UtSqCth7Mw" name="File"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_5qfBoLTcEeq0UtSqCth7Mw" name="BufferedReader"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_5qfosbTcEeq0UtSqCth7Mw" name="FileReader"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_5qfos7TcEeq0UtSqCth7Mw" name="IOException"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_sMB4cLTcEeq0UtSqCth7Mw" name="ressource">
+      <packagedElement xmi:type="uml:Class" xmi:id="_sMDGkLTcEeq0UtSqCth7Mw" name="Annee">
+        <ownedAttribute xmi:id="_sMQh8bTcEeq0UtSqCth7Mw" name="annee" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_sMRJALTcEeq0UtSqCth7Mw" name="coordTemp" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+          <qualifier xmi:id="_sMRJArTcEeq0UtSqCth7Mw">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </qualifier>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_sMRwELTcEeq0UtSqCth7Mw" name="Annee" specification="_sMEUsLTcEeq0UtSqCth7Mw">
+          <ownedParameter xmi:id="_sMRwEbTcEeq0UtSqCth7Mw" name="annee">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_sMRwErTcEeq0UtSqCth7Mw" type="_sMDGkLTcEeq0UtSqCth7Mw" direction="return"/>
+          <language>java</language>
+          <body>this.annee = annee;&#xD;
+		coordTemp = new HashMap&lt;String, Float>();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_sMRwE7TcEeq0UtSqCth7Mw" name="ajoutCoord" specification="_sMEUtbTcEeq0UtSqCth7Mw">
+          <ownedParameter xmi:id="_sMRwFLTcEeq0UtSqCth7Mw" name="coord">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_sMRwFbTcEeq0UtSqCth7Mw" name="temp">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>coordTemp.put(coord, temp);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_sMRwFrTcEeq0UtSqCth7Mw" name="getTemp" specification="_sME7wbTcEeq0UtSqCth7Mw">
+          <ownedParameter xmi:id="_sMRwF7TcEeq0UtSqCth7Mw" name="coord">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_sMRwGLTcEeq0UtSqCth7Mw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>//float temp = (float)coordTemp.get(coord);&#xD;
+		if(!coordTemp.containsKey(coord)) {&#xD;
+			throw new ExceptionNonContains(&quot;coordonnee recherche n'existe pas : &quot; + coord);&#xD;
+		}&#xD;
+		if(Float.isNaN(coordTemp.get(coord))) {&#xD;
+			return Float.NaN;&#xD;
+		}&#xD;
+		&#xD;
+		return coordTemp.get(coord);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_sMRwGbTcEeq0UtSqCth7Mw" name="getZoneConnu" specification="_sME7xLTcEeq0UtSqCth7Mw">
+          <ownedParameter xmi:id="_sMRwGrTcEeq0UtSqCth7Mw" type="_sMNeoLTcEeq0UtSqCth7Mw" direction="return"/>
+          <language>java</language>
+          <body>ArrayList&lt;String> l = new ArrayList&lt;String>();&#xD;
+		for (Map.Entry mapentry : coordTemp.entrySet()){&#xD;
+			l.add((String) mapentry.getKey());&#xD;
+		}&#xD;
+		return l;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_sMRwG7TcEeq0UtSqCth7Mw" name="getListeTempParCoord" specification="_sMGJ4LTcEeq0UtSqCth7Mw">
+          <ownedParameter xmi:id="_sMRwHLTcEeq0UtSqCth7Mw" type="_sMNeoLTcEeq0UtSqCth7Mw" direction="return"/>
+          <language>java</language>
+          <body>ArrayList&lt;Float> list = new ArrayList&lt;Float>();&#xD;
+		for(int latitude = -90; latitude &lt; 90; latitude += 4) {&#xD;
+     	for(int longitude = -180; longitude &lt; 180; longitude += 4) {&#xD;
+     		String lat = Integer.toString(latitude);&#xD;
+     		String lon = Integer.toString(longitude);&#xD;
+     		String localisation = lat+&quot;,&quot;+lon;&#xD;
+     		Float f = coordTemp.get(localisation);&#xD;
+     		list.add(f);&#xD;
+     		&#xD;
+     	}&#xD;
+		}&#xD;
+		return list;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_sMEUsLTcEeq0UtSqCth7Mw" name="Annee" method="_sMRwELTcEeq0UtSqCth7Mw">
+          <eAnnotations xmi:id="_sMEUsrTcEeq0UtSqCth7Mw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_sMEUs7TcEeq0UtSqCth7Mw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_sMEUsbTcEeq0UtSqCth7Mw" name="annee">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_sMEUtLTcEeq0UtSqCth7Mw" type="_sMDGkLTcEeq0UtSqCth7Mw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_sMEUtbTcEeq0UtSqCth7Mw" name="ajoutCoord" method="_sMRwE7TcEeq0UtSqCth7Mw">
+          <ownedParameter xmi:id="_sMEUtrTcEeq0UtSqCth7Mw" name="coord">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_sME7wLTcEeq0UtSqCth7Mw" name="temp">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_sME7wbTcEeq0UtSqCth7Mw" name="getTemp" method="_sMRwFrTcEeq0UtSqCth7Mw" raisedException="_sMP64LTcEeq0UtSqCth7Mw">
+          <ownedParameter xmi:id="_sME7wrTcEeq0UtSqCth7Mw" name="coord">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_sME7w7TcEeq0UtSqCth7Mw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_sME7xLTcEeq0UtSqCth7Mw" name="getZoneConnu" method="_sMRwGbTcEeq0UtSqCth7Mw">
+          <ownedParameter xmi:id="_sMP64rTcEeq0UtSqCth7Mw" type="_sMNeoLTcEeq0UtSqCth7Mw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_sMGJ4LTcEeq0UtSqCth7Mw" name="getListeTempParCoord" method="_sMRwG7TcEeq0UtSqCth7Mw">
+          <ownedParameter xmi:id="_sMQh8LTcEeq0UtSqCth7Mw" type="_sMNeoLTcEeq0UtSqCth7Mw" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_sMP64LTcEeq0UtSqCth7Mw" name="ExceptionNonContains"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_vLxAALTcEeq0UtSqCth7Mw" name="Anomalie">
+        <ownedAttribute xmi:id="_vMIzcLTcEeq0UtSqCth7Mw" name="listeAnnee" type="_sMDGkLTcEeq0UtSqCth7Mw" isReadOnly="true" association="_vMKoorTcEeq0UtSqCth7Mw">
+          <qualifier xmi:id="_vMJagLTcEeq0UtSqCth7Mw">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </qualifier>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_vMJagbTcEeq0UtSqCth7Mw" name="anomalieMax">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_vMJagrTcEeq0UtSqCth7Mw" name="anomalieMin">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vMKBkLTcEeq0UtSqCth7Mw" name="Anomalie" specification="_vLxnELTcEeq0UtSqCth7Mw">
+          <ownedParameter xmi:id="_vMKBkbTcEeq0UtSqCth7Mw" type="_vLxAALTcEeq0UtSqCth7Mw" direction="return"/>
+          <language>java</language>
+          <body>anomalieMax = Float.MIN_VALUE;&#xD;
+		anomalieMin = Float.MAX_VALUE;&#xD;
+		listeAnnee = new HashMap&lt;Integer, Annee>();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vMKBkrTcEeq0UtSqCth7Mw" name="ajoutAnnee" specification="_vMIMYLTcEeq0UtSqCth7Mw">
+          <ownedParameter xmi:id="_vMKBk7TcEeq0UtSqCth7Mw" name="a">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_vMKBlLTcEeq0UtSqCth7Mw" name="annee" type="_sMDGkLTcEeq0UtSqCth7Mw"/>
+          <language>java</language>
+          <body>listeAnnee.put(a, annee);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vMKBlbTcEeq0UtSqCth7Mw" name="ListeAnomalieParAnnee" specification="_vLyOI7TcEeq0UtSqCth7Mw">
+          <ownedParameter xmi:id="_vMKBlrTcEeq0UtSqCth7Mw" name="a">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_vMKBl7TcEeq0UtSqCth7Mw" type="_sMNeoLTcEeq0UtSqCth7Mw" direction="return"/>
+          <language>java</language>
+          <body>Annee anne = listeAnnee.get(a);&#xD;
+		return anne.getListeTempParCoord();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vMKBmLTcEeq0UtSqCth7Mw" name="getTempAnomalie" specification="_vL90ULTcEeq0UtSqCth7Mw">
+          <ownedParameter xmi:id="_vMKBmbTcEeq0UtSqCth7Mw" name="a">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_vMKBmrTcEeq0UtSqCth7Mw" name="coord">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_vMKBm7TcEeq0UtSqCth7Mw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>Annee anne = listeAnnee.get(a);&#xD;
+		return anne.getTemp(coord);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vMKBnLTcEeq0UtSqCth7Mw" name="ListeAnomalieParCoord" specification="_vL-bYLTcEeq0UtSqCth7Mw">
+          <ownedParameter xmi:id="_vMKBnbTcEeq0UtSqCth7Mw" name="coord">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_vMKBnrTcEeq0UtSqCth7Mw" type="_sMNeoLTcEeq0UtSqCth7Mw" direction="return"/>
+          <language>java</language>
+          <body>ArrayList&lt;Float> l = new ArrayList&lt;Float>();&#xD;
+		/*for (Map.Entry mapentry : listeAnnee.entrySet()){&#xD;
+			Annee annee = (Annee) mapentry.getValue();&#xD;
+			float d = annee.getTemp(coord);&#xD;
+			l.add(d);&#xD;
+		}&#xD;
+		*/&#xD;
+		for(int year = 1880; year &lt; 2021; year++) {&#xD;
+			Annee annee = (Annee)listeAnnee.get(year);&#xD;
+			float d = annee.getTemp(coord);&#xD;
+			l.add(d);&#xD;
+		}&#xD;
+		return l;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vMKooLTcEeq0UtSqCth7Mw" name="ListeToutesAnnee" specification="_vL_CcbTcEeq0UtSqCth7Mw">
+          <ownedParameter xmi:id="_vMKoobTcEeq0UtSqCth7Mw" type="_sMNeoLTcEeq0UtSqCth7Mw" direction="return"/>
+          <language>java</language>
+          <body>ArrayList&lt;Integer> list = new ArrayList&lt;Integer>();&#xD;
+		for (Map.Entry mapentry : listeAnnee.entrySet()){&#xD;
+			int annee = (int) mapentry.getKey();&#xD;
+			list.add(annee);&#xD;
+		}&#xD;
+		return list;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_vLxnELTcEeq0UtSqCth7Mw" name="Anomalie" method="_vMKBkLTcEeq0UtSqCth7Mw">
+          <eAnnotations xmi:id="_vLyOILTcEeq0UtSqCth7Mw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_vLyOIbTcEeq0UtSqCth7Mw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_vLyOIrTcEeq0UtSqCth7Mw" type="_vLxAALTcEeq0UtSqCth7Mw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_vLyOI7TcEeq0UtSqCth7Mw" name="ListeAnomalieParAnnee" method="_vMKBlbTcEeq0UtSqCth7Mw">
+          <ownedParameter xmi:id="_vLyOJLTcEeq0UtSqCth7Mw" name="a">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_vMIMY7TcEeq0UtSqCth7Mw" type="_sMNeoLTcEeq0UtSqCth7Mw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_vL90ULTcEeq0UtSqCth7Mw" name="getTempAnomalie" method="_vMKBmLTcEeq0UtSqCth7Mw" raisedException="_sMP64LTcEeq0UtSqCth7Mw">
+          <ownedParameter xmi:id="_vL90UbTcEeq0UtSqCth7Mw" name="a">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_vL90UrTcEeq0UtSqCth7Mw" name="coord">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_vL90U7TcEeq0UtSqCth7Mw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_vL-bYLTcEeq0UtSqCth7Mw" name="ListeAnomalieParCoord" method="_vMKBnLTcEeq0UtSqCth7Mw" raisedException="_sMP64LTcEeq0UtSqCth7Mw">
+          <ownedParameter xmi:id="_vL-bYbTcEeq0UtSqCth7Mw" name="coord">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_vMIMZLTcEeq0UtSqCth7Mw" type="_sMNeoLTcEeq0UtSqCth7Mw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_vL_CcbTcEeq0UtSqCth7Mw" name="ListeToutesAnnee" method="_vMKooLTcEeq0UtSqCth7Mw">
+          <ownedParameter xmi:id="_vMIMZbTcEeq0UtSqCth7Mw" type="_sMNeoLTcEeq0UtSqCth7Mw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_vMIMYLTcEeq0UtSqCth7Mw" name="ajoutAnnee" method="_vMKBkrTcEeq0UtSqCth7Mw">
+          <ownedParameter xmi:id="_vMIMYbTcEeq0UtSqCth7Mw" name="a">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_vMIMYrTcEeq0UtSqCth7Mw" name="annee" type="_sMDGkLTcEeq0UtSqCth7Mw"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_vMKoorTcEeq0UtSqCth7Mw" name="" memberEnd="_vMKoo7TcEeq0UtSqCth7Mw _vMIzcLTcEeq0UtSqCth7Mw">
+        <ownedEnd xmi:id="_vMKoo7TcEeq0UtSqCth7Mw" name="" type="_vLxAALTcEeq0UtSqCth7Mw" association="_vMKoorTcEeq0UtSqCth7Mw"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_3ThKQLTcEeq0UtSqCth7Mw" name="application">
+      <packagedElement xmi:type="uml:Class" xmi:id="_3ThxULTcEeq0UtSqCth7Mw" name="ModelEarth">
+        <ownedAttribute xmi:id="_3TsJYLTcEeq0UtSqCth7Mw" name="anomalieTemp" visibility="private" type="_vLxAALTcEeq0UtSqCth7Mw" association="_3Tt-kLTcEeq0UtSqCth7Mw"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_3TswcLTcEeq0UtSqCth7Mw" name="ModelEarth" specification="_3TiYYLTcEeq0UtSqCth7Mw">
+          <ownedParameter xmi:id="_3TswcbTcEeq0UtSqCth7Mw" type="_3ThxULTcEeq0UtSqCth7Mw" direction="return"/>
+          <language>java</language>
+          <body>anomalieTemp = Recuperation.getDataFromCSVFile(&quot;src/tempanomaly_4x4grid.csv&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_3TswcrTcEeq0UtSqCth7Mw" name="getListeAnnee" specification="_3Ti_cLTcEeq0UtSqCth7Mw">
+          <ownedParameter xmi:id="_3Tswc7TcEeq0UtSqCth7Mw" type="_sMNeoLTcEeq0UtSqCth7Mw" direction="return"/>
+          <language>java</language>
+          <body>return anomalieTemp.ListeToutesAnnee();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_3TswdLTcEeq0UtSqCth7Mw" name="getTemp" specification="_3Ti_crTcEeq0UtSqCth7Mw">
+          <ownedParameter xmi:id="_3TswdbTcEeq0UtSqCth7Mw" name="a">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_3TswdrTcEeq0UtSqCth7Mw" name="coord">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_3Tswd7TcEeq0UtSqCth7Mw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return anomalieTemp.getTempAnomalie(a, coord);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_3TsweLTcEeq0UtSqCth7Mw" name="getAnomalieParCoord" specification="_3Tjmg7TcEeq0UtSqCth7Mw">
+          <ownedParameter xmi:id="_3TswebTcEeq0UtSqCth7Mw" name="coord">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_3TswerTcEeq0UtSqCth7Mw" type="_sMNeoLTcEeq0UtSqCth7Mw" direction="return"/>
+          <language>java</language>
+          <body>return anomalieTemp.ListeAnomalieParCoord(coord);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_3Tswe7TcEeq0UtSqCth7Mw" name="getAnomalieParAnnee" specification="_3TkNkLTcEeq0UtSqCth7Mw">
+          <ownedParameter xmi:id="_3TswfLTcEeq0UtSqCth7Mw" name="a">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_3TswfbTcEeq0UtSqCth7Mw" type="_sMNeoLTcEeq0UtSqCth7Mw" direction="return"/>
+          <language>java</language>
+          <body>return anomalieTemp.ListeAnomalieParAnnee(a);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_3TtXgLTcEeq0UtSqCth7Mw" name="getTempMin" specification="_3Tk0oLTcEeq0UtSqCth7Mw">
+          <ownedParameter xmi:id="_3TtXgbTcEeq0UtSqCth7Mw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return anomalieTemp.getAnomalieMin();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_3TtXgrTcEeq0UtSqCth7Mw" name="getTempMax" specification="_3Tk0orTcEeq0UtSqCth7Mw">
+          <ownedParameter xmi:id="_3TtXg7TcEeq0UtSqCth7Mw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return anomalieTemp.getAnomalieMax();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_3TiYYLTcEeq0UtSqCth7Mw" name="ModelEarth" method="_3TswcLTcEeq0UtSqCth7Mw">
+          <eAnnotations xmi:id="_3TiYYbTcEeq0UtSqCth7Mw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_3TiYYrTcEeq0UtSqCth7Mw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_3TiYY7TcEeq0UtSqCth7Mw" type="_3ThxULTcEeq0UtSqCth7Mw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_3Ti_cLTcEeq0UtSqCth7Mw" name="getListeAnnee" method="_3TswcrTcEeq0UtSqCth7Mw">
+          <ownedParameter xmi:id="_3TriULTcEeq0UtSqCth7Mw" type="_sMNeoLTcEeq0UtSqCth7Mw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_3Ti_crTcEeq0UtSqCth7Mw" name="getTemp" method="_3TswdLTcEeq0UtSqCth7Mw" raisedException="_sMP64LTcEeq0UtSqCth7Mw">
+          <ownedParameter xmi:id="_3TjmgLTcEeq0UtSqCth7Mw" name="a">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_3TjmgbTcEeq0UtSqCth7Mw" name="coord">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_3TjmgrTcEeq0UtSqCth7Mw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_3Tjmg7TcEeq0UtSqCth7Mw" name="getAnomalieParCoord" method="_3TsweLTcEeq0UtSqCth7Mw" raisedException="_sMP64LTcEeq0UtSqCth7Mw">
+          <ownedParameter xmi:id="_3TjmhLTcEeq0UtSqCth7Mw" name="coord">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_3TriUbTcEeq0UtSqCth7Mw" type="_sMNeoLTcEeq0UtSqCth7Mw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_3TkNkLTcEeq0UtSqCth7Mw" name="getAnomalieParAnnee" method="_3Tswe7TcEeq0UtSqCth7Mw">
+          <ownedParameter xmi:id="_3TkNkbTcEeq0UtSqCth7Mw" name="a">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_3TriUrTcEeq0UtSqCth7Mw" type="_sMNeoLTcEeq0UtSqCth7Mw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_3Tk0oLTcEeq0UtSqCth7Mw" name="getTempMin" method="_3TtXgLTcEeq0UtSqCth7Mw">
+          <ownedParameter xmi:id="_3Tk0obTcEeq0UtSqCth7Mw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_3Tk0orTcEeq0UtSqCth7Mw" name="getTempMax" method="_3TtXgrTcEeq0UtSqCth7Mw">
+          <ownedParameter xmi:id="_3Tk0o7TcEeq0UtSqCth7Mw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_3Tt-kLTcEeq0UtSqCth7Mw" name="" memberEnd="_3Tt-kbTcEeq0UtSqCth7Mw _3TsJYLTcEeq0UtSqCth7Mw">
+        <ownedEnd xmi:id="_3Tt-kbTcEeq0UtSqCth7Mw" name="" type="_3ThxULTcEeq0UtSqCth7Mw" association="_3Tt-kLTcEeq0UtSqCth7Mw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_5qXF0LTcEeq0UtSqCth7Mw" name="Recuperation">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_5qgPwrTcEeq0UtSqCth7Mw" name="getDataFromCSVFile" specification="_5qXs4LTcEeq0UtSqCth7Mw">
+          <ownedParameter xmi:id="_5qgPw7TcEeq0UtSqCth7Mw" name="csvFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_5qgPxLTcEeq0UtSqCth7Mw" type="_vLxAALTcEeq0UtSqCth7Mw" direction="return"/>
+          <language>java</language>
+          <body>String coord;&#xD;
+		float temp;&#xD;
+		int year;&#xD;
+		Anomalie a = new Anomalie();&#xD;
+     String[] data = null;&#xD;
+     float max = Float.MIN_VALUE;;&#xD;
+     float min = Float.MAX_VALUE;&#xD;
+     &#xD;
+     &#xD;
+     try {&#xD;
+     	FileReader file = new FileReader(csvFilePath);&#xD;
+     	BufferedReader bufferedReader = new BufferedReader(file);&#xD;
+     	&#xD;
+     	String line = bufferedReader.readLine();&#xD;
+     	data = line.replace(&quot;\&quot;&quot;, &quot;&quot;).split(&quot;,&quot;);&#xD;
+     	for(int i = 2; i&lt;data.length; i++) {&#xD;
+     		year = Integer.parseInt(data[i]);&#xD;
+     		Annee annee  = new Annee(year);&#xD;
+     		a.ajoutAnnee(year, annee);&#xD;
+     		&#xD;
+     	}&#xD;
+     	while((line =bufferedReader.readLine()) != null) {&#xD;
+     		//line = bufferedReader.readLine();&#xD;
+     		data = line.split(&quot;,&quot;);&#xD;
+     		coord = data[0] +&quot;,&quot;+ data[1];&#xD;
+     		int i = 2;&#xD;
+     		Map&lt;Integer, Annee> map = a.getListeAnnee();&#xD;
+     		for (Map.Entry mapentry : map.entrySet()){&#xD;
+&#xD;
+     			try {&#xD;
+     				temp = Float.parseFloat(data[i]);&#xD;
+     				if(temp &lt; min) {&#xD;
+     					min = temp;&#xD;
+     				}&#xD;
+     				if(temp > max) {&#xD;
+     					max = temp;&#xD;
+     				}&#xD;
+     			}catch(Exception exception) {&#xD;
+     				&#xD;
+     				temp = Float.NaN;&#xD;
+     			}&#xD;
+     			((Annee) mapentry.getValue()).ajoutCoord(coord, temp);&#xD;
+     				i += 1;&#xD;
+&#xD;
+     		}&#xD;
+     	}&#xD;
+     	a.setAnomalieMax(max);&#xD;
+     	a.setAnomalieMin(min);&#xD;
+     	&#xD;
+     	&#xD;
+     	&#xD;
+     }catch (IOException e) {&#xD;
+     		e.printStackTrace();&#xD;
+     }&#xD;
+     &#xD;
+     return a;&#xD;
+&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_5qXs4LTcEeq0UtSqCth7Mw" name="getDataFromCSVFile" isStatic="true" method="_5qgPwrTcEeq0UtSqCth7Mw">
+          <ownedParameter xmi:id="_5qXs4bTcEeq0UtSqCth7Mw" name="csvFilePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_5qgPwbTcEeq0UtSqCth7Mw" type="_vLxAALTcEeq0UtSqCth7Mw" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_jecdQLTcEeq0UtSqCth7Mw">
+      <eAnnotations xmi:id="_jee5gLTcEeq0UtSqCth7Mw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_jegHoLTcEeq0UtSqCth7Mw" base_Package="_jaApMLTcEeq0UtSqCth7Mw">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:Generics xmi:id="_sMFi0LTcEeq0UtSqCth7Mw" genericsValue="String" base_Element="_sME7xLTcEeq0UtSqCth7Mw"/>
+  <UMLLabProfile:Generics xmi:id="_sMGJ4bTcEeq0UtSqCth7Mw" genericsValue="Float" base_Element="_sMGJ4LTcEeq0UtSqCth7Mw"/>
+  <UMLLabProfile:Reference xmi:id="_sMOFsLTcEeq0UtSqCth7Mw" base_Element="_sMNeoLTcEeq0UtSqCth7Mw"/>
+  <UMLLabProfile:Reference xmi:id="_sMOFsrTcEeq0UtSqCth7Mw" base_Element="_sMOFsbTcEeq0UtSqCth7Mw"/>
+  <UMLLabProfile:Reference xmi:id="_sMOswLTcEeq0UtSqCth7Mw" base_Element="_sMOFs7TcEeq0UtSqCth7Mw"/>
+  <UMLLabProfile:Reference xmi:id="_sMP64bTcEeq0UtSqCth7Mw" base_Element="_sMP64LTcEeq0UtSqCth7Mw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_sMQh8rTcEeq0UtSqCth7Mw" base_Element="_sMQh8bTcEeq0UtSqCth7Mw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_sMRJAbTcEeq0UtSqCth7Mw" base_Element="_sMRJALTcEeq0UtSqCth7Mw"/>
+  <UMLLabProfile:Generics xmi:id="_vLy1MLTcEeq0UtSqCth7Mw" genericsValue="Float" base_Element="_vLyOI7TcEeq0UtSqCth7Mw"/>
+  <UMLLabProfile:Generics xmi:id="_vL_CcLTcEeq0UtSqCth7Mw" genericsValue="Float" base_Element="_vL-bYLTcEeq0UtSqCth7Mw"/>
+  <UMLLabProfile:Generics xmi:id="_vL_pgLTcEeq0UtSqCth7Mw" genericsValue="Integer" base_Element="_vL_CcbTcEeq0UtSqCth7Mw"/>
+  <UMLLabProfile:Reference xmi:id="_vMLPsLTcEeq0UtSqCth7Mw" base_Element="_vMKoorTcEeq0UtSqCth7Mw"/>
+  <UMLLabProfile:Generics xmi:id="_3Ti_cbTcEeq0UtSqCth7Mw" genericsValue="Integer" base_Element="_3Ti_cLTcEeq0UtSqCth7Mw"/>
+  <UMLLabProfile:Generics xmi:id="_3TjmhbTcEeq0UtSqCth7Mw" genericsValue="Float" base_Element="_3Tjmg7TcEeq0UtSqCth7Mw"/>
+  <UMLLabProfile:Generics xmi:id="_3TkNkrTcEeq0UtSqCth7Mw" genericsValue="Float" base_Element="_3TkNkLTcEeq0UtSqCth7Mw"/>
+  <UMLLabProfile:Reference xmi:id="_3Tq7QbTcEeq0UtSqCth7Mw" base_Element="_3Tq7QLTcEeq0UtSqCth7Mw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_3TsJYbTcEeq0UtSqCth7Mw" base_Element="_3TsJYLTcEeq0UtSqCth7Mw"/>
+  <UMLLabProfile:Reference xmi:id="_3Tt-krTcEeq0UtSqCth7Mw" base_Element="_3Tt-kLTcEeq0UtSqCth7Mw"/>
+  <UMLLabProfile:Reference xmi:id="_5qfosLTcEeq0UtSqCth7Mw" base_Element="_5qfBoLTcEeq0UtSqCth7Mw"/>
+  <UMLLabProfile:Reference xmi:id="_5qfosrTcEeq0UtSqCth7Mw" base_Element="_5qfosbTcEeq0UtSqCth7Mw"/>
+  <UMLLabProfile:Reference xmi:id="_5qgPwLTcEeq0UtSqCth7Mw" base_Element="_5qfos7TcEeq0UtSqCth7Mw"/>
+</xmi:XMI>
